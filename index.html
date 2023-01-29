@@ -5,7 +5,7 @@
         <title>Christine Shumay</title>
     </head>
 
-<!-- Header stuff to set up the nav bar-->
+<!-- Header stuff to set up the nav bar. Designed with CSS flex. The body is also designed with CSS flex-->
 
         <body>
             <main>
@@ -25,7 +25,7 @@
 <!-- Hero section that goes 'above the fold'. Uses grid rows-->
 
     <section class="hero">
-        <div class="containerGrid">
+        <div class="heroContainer">
         <div class="hero1"><img  src="assets/images/Hero 1.png" class="responsive"></div>
         <div class="hero2"><h1  style="font-size: 3vw;">Designer. Visionary. Researcher. Storyteller.</h1><img src="assets/images/Hero 2.png" class="responsive">
         </div>
@@ -35,9 +35,9 @@
 
 <!-- Portfolio section that showcases case studies. Uses grid rows and columns-->
     
-    <section class="portfolio">
+    <section class="myWork">
         <h2 class="title">My Work</h2>
-        <div class="portfolioGrid">
+        <div class="workGrid">
           <div class="doi">
             <img src="assets/images/DOI.png">
           </div>
@@ -78,32 +78,34 @@
           </div>
         </div>
         <br>
+        <h3 class="more">View All Projects</h3>
       </section>
       <div id="rectangle"></div>
 
 <!-- My skill section to review how talented I am. Uses grid columns-->
 
-      <section class="skills">
+      <section class="mySkills">
+        <h2 class="title">My UX Skills</h2>
         <div class="skillsGrid">
         <div class="left"> 
             <h2>Education</h2>
-             <p>Georgia Institute of Technology | UX/UI Certification <br> Atlanta, Ga. 2022-2023</p>
-            <p>Queen's University | Masters in History <br> Kingston, ON. 2011-2012</p>
-            <p>Brandon University | Bachelor of Arts, Honours <br> Brandon, MB. 2006-2010</p>
+             <h3>Georgia Institute of Technology | UX/UI Certification <br> Atlanta, Ga. 2022-2023</h3>
+            <h3>Queen's University | Masters in History <br> Kingston, ON. 2011-2012</h3>
+            <h3>Brandon University | Bachelor of Arts, Honours <br> Brandon, MB. 2006-2010</h3>
             <br>
 
           <h2>Experience</h2>
-          <p>Southwire | Digital Marketing Manager <br> Remote. 2022-Present</p>
-          <p>Southwire | Digital Marketing Specialist <br> Remote. 2020-2022</p>
-            <p>Southwire | Marketing Coordinator <br> Carrollton, GA. 2017-2020.</p>
+          <h3>Southwire | Digital Marketing Manager <br> Remote. 2022-Present</h3>
+          <h3>Southwire | Digital Marketing Specialist <br> Remote. 2020-2022</h3>
+            <h3>Southwire | Marketing Coordinator <br> Carrollton, GA. 2017-2020.</h3>
         <br>
 
           <h2>Certifications</h2>
-          <p>Google Tag Manager Fundamentals</p>
-        <p>Google Campaign Manager 360</p>
-          <p>Google Analytics</p>
-          <p>BrightEdge SEO</p>
-          <p>The Perusasive Speaker</p>
+          <h3>Google Tag Manager Fundamentals</h3>
+        <h3>Google Campaign Manager 360</h3>
+          <h3>Google Analytics</h3>
+          <h3>BrightEdge SEO</h3>
+          <h3>The Perusasive Speaker</h3>
      </div>
 
      <div class="right">
@@ -116,21 +118,23 @@
      </div>
         </div>
         <br>
+
         <div id="rectangle"></div>
     </section>
 
-<!-- About me section that has a form. Uses a flex container-->
+<!-- About Me section that has a form. This is where the flexContainer is-->
 
     <section class="aboutMe">
+      <h2 class="title">About Me</h2>
             <div class="flexContainer">
                 <div class="item1"><img src="assets/images/C Shumay.png" class="responsive"></div>
 
                 <div class="item2">
                     <h1 style="font-size: 3vw;">My name is Christine Shumay, UX/UI designer extraordinaire, but you can call me Christie. </h1>
                       <br>
-                    <p style="font-size: 1.5vw;">I am a multi-disciplinary UX/UI designer who uses research and trend extrapolation to deliver solutions that work.
+                    <h3>I am a multi-disciplinary UX/UI designer who uses research and trend extrapolation to deliver solutions that work.
 
-                    By blending together a historian’s education with a marketer’s practical training, I have the UX/UI skills to create seamless digital experiences that exceed user expectations in an increasingly virtual world.</p>
+                    By blending together a historian’s education with a marketer’s practical training, I have the UX/UI skills to create seamless digital experiences that exceed user expectations in an increasingly virtual world.</h3>
                 </div>
 
                 <div class="item3">
@@ -153,7 +157,7 @@
     <div id="rectangle"></div>
             </main>
 
-<!-- A very flexible footer-->
+<!-- A very flexible footer. Designed with CSS flex-->
 
             <footer class="footer">
                 <div class="btmlogo"><img src="assets/images/C Shumay Logo Bottom.png"></div>

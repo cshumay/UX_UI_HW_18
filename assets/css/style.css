@@ -75,7 +75,7 @@ ul{
 } 
 
 /* Hero Section */
-.containerGrid{
+.heroContainer{
   display: grid;
   grid-template-areas: 'hero1 hero2';
   grid-template-rows: 25% 75%;
@@ -88,16 +88,17 @@ ul{
   text-align: center;
   font-size: 30px;
   font-family: "Lora";
+  color: white;
 }
 
 /* My Portfolio Section */
-.portfolio {
+.myWork {
   padding: 60px 30px;
   padding-top: 0;
   color: white;
 }
 
-.portfolioGrid {
+.workGrid {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 350px 350px 350px;
@@ -108,7 +109,7 @@ ul{
   ;
 }
 
-.portfolioGrid img {
+.workGrid img {
   width: 100%;
   max-width: 250px;
   margin: 0 auto;
@@ -200,8 +201,13 @@ ul{
   transition: 0.5s
 }
 
+.myWork h3{
+  text-align: center;
+  font-family: "Lora";
+}
+
 /* Skills Section*/
-.skillsGrid{
+.skillsGrid {
   display: grid;
   grid-template-areas: 'left right';
   grid-template-columns: 50% 50%;
@@ -214,7 +220,7 @@ ul{
   color: #80A9BC;
 }
 
-.left p{
+.left h3{
   font-family: "Radio Canada";
   font-size: 18px;
 }
@@ -264,9 +270,10 @@ ul{
     color: white;
 }
   
-  .item2 p{
+  .item2 h3{
       font-family: "Radio Canada";
       color: white;
+      font-weight: 300;
 }
 
   .item4 img{
@@ -368,4 +375,8 @@ ul{
 justify-content: space-evenly;
 max-width: 992px;
 width: 100%;
+}
+
+@media only screen and (max-width: 600){
+
 }
