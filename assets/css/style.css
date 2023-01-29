@@ -70,12 +70,12 @@ ul{
 }
 
 .responsive{
-  width: 90%;
+ max-width: 90%;
   height: auto;
 } 
 
 /* Hero Section */
-.heroContainer{
+.heroGrid{
   display: grid;
   grid-template-areas: 'hero1 hero2';
   grid-template-rows: 25% 75%;
@@ -222,7 +222,7 @@ ul{
 
 .left h3{
   font-family: "Radio Canada";
-  font-size: 18px;
+  font-weight: 100;
 }
 
 .right h2{
@@ -243,10 +243,10 @@ ul{
 }
   
 .item4 {
-    grid-area:BR
+    grid-area:BR;
 }
   
-  .flexContainer {
+  .aboutGrid {
     display: grid;
     grid-template-areas:
       'TL TR'
@@ -256,7 +256,7 @@ ul{
     padding: 10px;
 }
   
-  .flexContainer > div {
+  .aboutGrid > div {
     text-align: center;
     padding: 20px 20px;
 }
@@ -288,7 +288,6 @@ ul{
       box-sizing: border-box;
       margin-top: 6px;
       margin-bottom: 16px;
-      resize: vertical;
 }
   
   input[type=submit] {
@@ -298,7 +297,7 @@ ul{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    display: absolute;
+    display: float;
 }
   
   input[type=submit]:hover {
@@ -378,5 +377,41 @@ width: 100%;
 }
 
 @media only screen and (max-width: 600){
+  .heroGrid{
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "hero1"
+    "hero2";
+  }
 
+  .workGrid{
+    grid-template-rows: 350px 350px 350px 350px 350px 350px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "doi"
+    "doiSummary"
+    "jetty"
+    "jettySummary"
+    "garvin"
+    "garvinSummary";
+    resize: vertical;
+  }
+
+  .skillsGrid{
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1 fr;
+    grid-template-areas: 
+    "left"
+    "right";
+  }
+  .aboutGrid{
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "TL"
+    "TR"
+    "BL"
+    "BR";
+  }
 }
