@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="assets/css/style.css" rel="stylesheet">
-        <title>About Me</title>
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <title>Christine Shumay</title>
     </head>
+
+<!-- Header stuff to set up the nav bar-->
 
         <body>
             <main>
@@ -20,7 +22,107 @@
                 </ul>
             </nav>
 
-            <div class="grid-container">
+<!-- Hero section that goes 'above the fold'. Uses grid rows-->
+
+    <section class="hero">
+        <div class="containerGrid">
+        <div class="hero1"><img  src="assets/images/Hero 1.png" class="responsive"></div>
+        <div class="hero2"><h1  style="font-size: 3vw;">Designer. Visionary. Researcher. Storyteller.</h1><img src="assets/images/Hero 2.png" class="responsive">
+        </div>
+        </div>
+        <div id="rectangle"></div>
+    </section>
+
+<!-- Portfolio section that showcases case studies. Uses grid rows and columns-->
+    
+    <section class="portfolio">
+        <h2 class="title">My Work</h2>
+        <div class="portfolioGrid">
+          <div class="doi">
+            <img src="assets/images/DOI.png">
+          </div>
+          <div class="doiSummary">
+            <h4>Department of the Interior Redesign</h4>
+            <p>Summary: Tested users did not find the DOI site intuitive or accessible and instead needed to hunt through menus in order to stumble upon the right page to complete tests. The redesign used UX/UI best practices to create a more effective experience.
+                  <br><br>
+                  Roles and Responsibilities: UX/UI Designer
+                  <br><br>
+                  Tools Used: Figma, Miro, Slack, Zoom, Google Suite, Otter</p>
+            <a href="https://www.behance.net/gallery/158806079/Department-of-the-Interior-Redesign"><button type="button" class="midbtn">View Project</button></a>
+          </div>
+          
+          <div class="jetty">
+            <img src="assets/images/Jetty.png">
+          </div>
+          <div class="jettySummary">
+            <h4>Jetty - A Travel App Prototype</h4>
+            <p>Summary: Jetty is a travel planning mobile app that integrates user reviews throughout the booking process. User research showed that vacationers demonstrate a heavy reliance on customer reviews in order to feel less anxious while building out their travel itinerary.
+                  <br><br>
+                  Roles and Responsibilities: UX/UI Designer
+                  <br><br>
+                  Tools Used: Figma, Miro, Slack, Zoom, Google Suite, Otter</p>
+            <a href="https://www.behance.net/gallery/161298563/Jetty-A-Mobile-Travel-App-Case-Study-V2"><button type="button" class="midbtn">View Project</button></a>
+          </div>
+          
+          <div class="garvin">
+            <img src="assets/images/Garvin.png">
+          </div>
+          <div class="garvinSummary">
+            <h4>GarvinIndustries.com Redesign</h4>
+            <p>Summary: As a transactional B2C site, GarvinIndustries.com needed a revamped sitemap to eliminate friction along the path to purchase while also delighting the eye with updated design hierarchy.
+              <br><br>
+              Roles and Responsibilities: User Researcher and User Acceptance
+              <br><br>
+              Tools Used: Zoom, Google Analytics, Hotjar, Jira</p>
+              <a href="https://www.cshumay.com/work-samples/digital-experiences"><button type="button" class="midbtn"> View Project</button></a>
+          </div>
+        </div>
+        <br>
+      </section>
+      <div id="rectangle"></div>
+
+<!-- My skill section to review how talented I am. Uses grid columns-->
+
+      <section class="skills">
+        <div class="skillsGrid">
+        <div class="left"> 
+            <h2>Education</h2>
+             <p>Georgia Institute of Technology | UX/UI Certification <br> Atlanta, Ga. 2022-2023</p>
+            <p>Queen's University | Masters in History <br> Kingston, ON. 2011-2012</p>
+            <p>Brandon University | Bachelor of Arts, Honours <br> Brandon, MB. 2006-2010</p>
+            <br>
+
+          <h2>Experience</h2>
+          <p>Southwire | Digital Marketing Manager <br> Remote. 2022-Present</p>
+          <p>Southwire | Digital Marketing Specialist <br> Remote. 2020-2022</p>
+            <p>Southwire | Marketing Coordinator <br> Carrollton, GA. 2017-2020.</p>
+        <br>
+
+          <h2>Certifications</h2>
+          <p>Google Tag Manager Fundamentals</p>
+        <p>Google Campaign Manager 360</p>
+          <p>Google Analytics</p>
+          <p>BrightEdge SEO</p>
+          <p>The Perusasive Speaker</p>
+     </div>
+
+     <div class="right">
+        <h2>Skill Sets</h2>
+        <img src="assets/images/Skill Sets.png">
+        <h2>Proficiencies</h2>
+        <img src="assets/images/Proficiencies.png">
+        <h2>Languages</h2>
+        <img src="assets/images/Languages.png">
+     </div>
+        </div>
+        <br>
+        <div id="rectangle"></div>
+    </section>
+
+<!-- About me section that has a form. Uses a flex container-->
+
+    <section class="aboutMe">
+            <div class="flexContainer">
                 <div class="item1"><img src="assets/images/C Shumay.png" class="responsive"></div>
 
                 <div class="item2">
@@ -47,7 +149,11 @@
 
                 <div class="item4"><img src="assets/images/Component 1.png" class="responsive"></div>
             </div>
+    </section>
+    <div id="rectangle"></div>
             </main>
+
+<!-- A very flexible footer-->
 
             <footer class="footer">
                 <div class="btmlogo"><img src="assets/images/C Shumay Logo Bottom.png"></div>
