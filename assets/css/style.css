@@ -345,7 +345,7 @@ top: 0px;
 
 .footer-content {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     background-color: white;
 }
@@ -367,31 +367,29 @@ top: 0px;
 
 .btmlogo img{
     position: absolute;
-    margin-top: 1%;
-    margin-left: 5%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
 }
 
 .btmlinkedin img{
     position: absolute;
-    margin-top: 30px;
-    margin-left: 90%;
+    margin-top: 1.25%;
+    margin-left: 17%;
 }
 
 .btmbehance img{
     position: absolute;
-    margin-top: 28px;
-    margin-left: 95%;
+    margin-top: 1.25%;
+    margin-left: 13%;
 }
 .footer-content p{
     position: absolute;
-    left: 10%;
-    margin-top: 8px;
+    left: 4.5%;
+    margin-top: 1%;
 }
 
-.footer-content ul{
-justify-content: space-evenly;
-max-width: 992px;
-width: 100%;
+.footer-content {
+  float: right;
 }
 
 @media only screen and (max-width: 600){
@@ -402,6 +400,10 @@ width: 100%;
   }
   
   .header-right {
+    float: none;
+  }
+
+  .footer-content{
     float: none;
   }
  
