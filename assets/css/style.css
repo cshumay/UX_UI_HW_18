@@ -315,7 +315,7 @@ top: 0px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    display: float;
+    display: absolute;
 }
   
   input[type=submit]:hover {
@@ -426,7 +426,11 @@ top: 0px;
     "jettySummary"
     "garvin"
     "garvinSummary";
-    resize: vertical;
+    min-width: 300px;
+  }
+
+  .doi p{
+    font-size: 20px;
   }
 
   .skillsGrid{
