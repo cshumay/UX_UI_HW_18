@@ -271,12 +271,12 @@ top: 0px;
       'BL BR';
     gap: 5px;
     background-color: #494c70;
-    padding: 10px;
+   padding-bottom: 80px;
 }
   
   .aboutGrid > div {
     text-align: center;
-    padding: 20px 80px;
+    padding: 20px 20px;
 }
   
   .item1 img{
