@@ -109,6 +109,27 @@ top: 0px;
   color: white;
 }
 
+/* My Talents Section */
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+
+.flexContainer h3{
+  color: #80A9B6;
+  font-family: "Lora";
+}
+
+.flexContainer p{
+  font-family: "Radio Canada";
+  font-size: 18px;
+  color: white;}
+
 /* My Portfolio Section */
 .myWork {
   padding: 60px 30px;
@@ -415,6 +436,9 @@ top: 0px;
     "hero2";
   }
 
+  .flexContainer{
+    flex-direction: column;
+  }
   .workGrid{
     display: grid;
     grid-template-rows: 350px 350px 350px 350px 350px 350px;
